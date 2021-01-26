@@ -1,0 +1,73 @@
+body{
+  font-family: 'Handlee', cursive;
+    background-color: black;
+    color:black;
+    width:100%;
+}
+.container {
+    background-color: rgb(235, 232, 229);
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: auto; 
+    padding: 25px;
+}
+.header {
+    overflow: hidden;
+    margin-right: 40px;
+}
+#title {
+    float: left;
+    margin: 35px;
+}
+#logo {
+    float: right;
+    margin: 35px;
+    margin-right: 40px;
+}
+img {
+    height: 60px;
+    width: 50px; 
+    margin-left: 15px;
+}
+.center {
+        overflow: hidden;
+}
+#text1{
+    float: left;
+    margin-left: 5px;
+    width: 47%;
+}
+#complete {
+    float: right;
+    width: 50%;
+}
+#text1 > p{
+    padding-left: 10px;
+}
+input {
+    padding: 2px;
+    margin: 3px;
+    font-family: 'Handlee', cursive;
+    border: none;
+    border-bottom: solid gray;
+}
+#enviar{
+    background-color: lightgray;
+    font-family: 'Handlee', cursive;
+    border-bottom:none;
+    margin-top: 20px;        
+}
+#complete input[type='text']{
+    width: 200px;
+    border: none;
+    border-bottom: solid 0.5px gray ;
+    background: none;
+}
+.footer{
+    text-align: center;
+}
+
